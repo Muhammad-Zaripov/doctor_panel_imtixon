@@ -83,6 +83,7 @@ class _ProfilViewState extends State<ProfilView> {
                               color: Colors.white,
                             ),
                             style: IconButton.styleFrom(
+                              // ignore: deprecated_member_use
                               backgroundColor: Colors.black.withOpacity(0.4),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15),

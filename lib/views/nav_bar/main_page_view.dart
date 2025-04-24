@@ -42,6 +42,7 @@ class _MainPageViewState extends State<MainPageView> {
                     isDark
                         ? BoxShadow()
                         : BoxShadow(
+                          // ignore: deprecated_member_use
                           color: Colors.grey.withOpacity(0.2),
                           spreadRadius: 1,
                           blurRadius: 4,
